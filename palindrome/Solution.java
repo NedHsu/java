@@ -1,5 +1,4 @@
 package palindrome;
-import java.io.*;
 import java.util.*;
 
 public class Solution {
@@ -10,6 +9,7 @@ public class Solution {
         String A = sc.next();
         /* Print Yes if it is a palindrome, print No otherwise. */
         System.out.println(isPalindrome(A) ? "Yes" : "No");
+        sc.close();
     }
 
     public static boolean isPalindrome(String A) {
