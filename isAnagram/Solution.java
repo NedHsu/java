@@ -1,4 +1,4 @@
-package isAnagram;
+package IsAnagram;
 import java.util.Scanner;
 
 public class Solution {
